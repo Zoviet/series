@@ -1,0 +1,76 @@
+cpu:
+                       Intel(R) Xeon(R) CPU           L5420  @ 2.50GHz, 2161 MHz
+                       Intel(R) Xeon(R) CPU           L5420  @ 2.50GHz, 2245 MHz
+                       Intel(R) Xeon(R) CPU           L5420  @ 2.50GHz, 2229 MHz
+                       Intel(R) Xeon(R) CPU           L5420  @ 2.50GHz, 2158 MHz
+keyboard:
+  /dev/input/event4    A4Tech X-718BK Oscar Optical Gaming Mouse
+  /dev/input/event2    AT Translated Set 2 keyboard
+mouse:
+  /dev/input/mice      A4Tech X-718BK Oscar Optical Gaming Mouse
+printer:
+  /dev/lp0             EPSON LX-1170
+monitor:
+                       BenQ G2020HD
+graphics card:
+                       GeForce 6600 (Gigabyte)
+sound:
+                       VIA VT1720/24 [Envy24PT/HT] PCI Multi-Channel Audio Controller
+                       Gigabyte GA-D525TUD (Realtek ALC887)
+storage:
+                       Intel NM10/ICH7 Family SATA Controller [IDE mode]
+network:
+  enp3s0               Qualcomm Atheros AR8131 Gigabit Ethernet
+  enxf835dd44272d      Gemtek WLTUBA-107 [Yota 4G LTE]
+network interface:
+  lo                   Loopback network interface
+  enxf835dd44272d      Ethernet network interface
+  enp3s0               Ethernet network interface
+disk:
+  /dev/sdd             SATA SSD
+  /dev/sdb             WDC WD800JD-00LS
+  /dev/sdc             Maxtor 6Y160M0
+  /dev/sda             ST9160827AS
+partition:
+  /dev/sdd1            Partition
+  /dev/sdb1            Partition
+  /dev/sdc1            Partition
+  /dev/sdc2            Partition
+  /dev/sdc5            Partition
+  /dev/sda1            Partition
+  /dev/sda2            Partition
+  /dev/sda5            Partition
+usb controller:
+                       Gigabyte GA-D525TUD
+                       Gigabyte GA-D525TUD
+                       Gigabyte GA-D525TUD
+                       Gigabyte GA-D525TUD
+                       Gigabyte GA-D525TUD
+bios:
+                       BIOS
+bridge:
+                       Intel 82801 PCI Bridge
+                       Intel 82G33/G31/P35/P31 Express DRAM Controller
+                       Intel NM10/ICH7 Family PCI Express Port 2
+                       Gigabyte GA-D525TUD
+                       Intel 82801GB/GR (ICH7 Family) LPC Interface Bridge
+                       Intel 82G33/G31/P35/P31 Express PCI Express Root Port
+hub:
+                       Linux Foundation 1.1 root hub
+                       Terminus Hub
+                       Linux Foundation 2.0 root hub
+                       Linux Foundation 1.1 root hub
+                       Linux Foundation 1.1 root hub
+                       Linux Foundation 1.1 root hub
+memory:
+                       Main Memory
+unknown:
+                       FPU
+                       DMA controller
+                       PIC
+                       Keyboard controller
+  /dev/lp0             Parallel controller
+                       Intel NM10/ICH7 Family SMBus Controller
+                       Serial controller
+                       Logitech Webcam C270
+                       Gemtek WLTUBA-107 [Yota 4G LTE]
