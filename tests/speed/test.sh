@@ -10,11 +10,14 @@ echo "Lua array test start";
 lua test.lua > temp3;
 echo "Python with array module";
 python test2.py > temp4;
-csvtool paste temp0 temp1 temp2 temp3 temp4 > test.csv
+echo "Forran 95 array test start";
+./test.fortran > temp5;
+csvtool paste temp0 temp1 temp2 temp3 temp4 temp5 > test.csv
 rm temp0;
 rm temp1;
 rm temp2;
 rm temp3;
 rm temp4;
+rm temp5;
 gnuplot -p test.gnuplot;
 

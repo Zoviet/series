@@ -11,5 +11,7 @@ echo "Plain C array test start";
 perf stat ./test 2>>profile.txt;
 echo "Lua array test start";
 perf stat lua test.lua 2>>profile.txt;
+echo "Fortran 95 array test start";
+perf stat ./test.fortran 2>>profile.txt;
 
 

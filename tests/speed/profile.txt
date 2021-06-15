@@ -1,84 +1,98 @@
 
  Performance counter stats for 'python test.py':
 
-      11869,328920      task-clock (msec)         #    0,999 CPUs utilized          
-             1 013      context-switches          #    0,085 K/sec                  
-                 0      cpu-migrations            #    0,000 K/sec                  
-           453 369      page-faults               #    0,038 M/sec                  
-    27 632 731 759      cycles                    #    2,328 GHz                      (50,00%)
-    42 720 486 230      instructions              #    1,55  insn per cycle           (75,03%)
-     8 702 639 172      branches                  #  733,204 M/sec                    (75,00%)
-        96 742 895      branch-misses             #    1,11% of all branches          (75,00%)
+      12308,217264      task-clock (msec)         #    0,669 CPUs utilized          
+             2 581      context-switches          #    0,210 K/sec                  
+                51      cpu-migrations            #    0,004 K/sec                  
+           453 443      page-faults               #    0,037 M/sec                  
+    28 590 150 826      cycles                    #    2,323 GHz                      (50,05%)
+    42 908 208 578      instructions              #    1,50  insn per cycle           (75,05%)
+     8 762 521 145      branches                  #  711,924 M/sec                    (75,06%)
+        12 112 167      branch-misses             #    0,14% of all branches          (74,89%)
 
-      11,884402083 seconds time elapsed
+      18,389774335 seconds time elapsed
 
 
  Performance counter stats for 'python test2.py':
 
-      26546,795490      task-clock (msec)         #    0,999 CPUs utilized          
-             2 247      context-switches          #    0,085 K/sec                  
-                 0      cpu-migrations            #    0,000 K/sec                  
-           381 887      page-faults               #    0,014 M/sec                  
-    61 827 199 333      cycles                    #    2,329 GHz                      (50,00%)
-   122 173 430 399      instructions              #    1,98  insn per cycle           (75,01%)
-    27 526 673 572      branches                  # 1036,911 M/sec                    (74,99%)
-        26 457 234      branch-misses             #    0,10% of all branches          (75,01%)
+      27673,589683      task-clock (msec)         #    0,995 CPUs utilized          
+             3 241      context-switches          #    0,117 K/sec                  
+                 7      cpu-migrations            #    0,000 K/sec                  
+           381 894      page-faults               #    0,014 M/sec                  
+    64 398 904 037      cycles                    #    2,327 GHz                      (49,96%)
+   122 322 892 296      instructions              #    1,90  insn per cycle           (75,06%)
+    27 477 224 514      branches                  #  992,904 M/sec                    (75,00%)
+        14 425 705      branch-misses             #    0,05% of all branches          (75,03%)
 
-      26,570409781 seconds time elapsed
+      27,816109009 seconds time elapsed
 
 
  Performance counter stats for 'php test0.php':
 
-       5963,365287      task-clock (msec)         #    0,998 CPUs utilized          
-               512      context-switches          #    0,086 K/sec                  
-                 0      cpu-migrations            #    0,000 K/sec                  
-           926 128      page-faults               #    0,155 M/sec                  
-    13 870 072 143      cycles                    #    2,326 GHz                      (49,99%)
-    15 289 531 005      instructions              #    1,10  insn per cycle           (75,02%)
-     3 498 051 543      branches                  #  586,590 M/sec                    (75,00%)
-         4 529 206      branch-misses             #    0,13% of all branches          (75,01%)
+       6890,991744      task-clock (msec)         #    0,959 CPUs utilized          
+             1 722      context-switches          #    0,250 K/sec                  
+                 9      cpu-migrations            #    0,001 K/sec                  
+           926 292      page-faults               #    0,134 M/sec                  
+    15 901 625 730      cycles                    #    2,308 GHz                      (50,10%)
+    15 311 715 596      instructions              #    0,96  insn per cycle           (75,08%)
+     3 502 559 039      branches                  #  508,281 M/sec                    (74,93%)
+         4 474 425      branch-misses             #    0,13% of all branches          (74,97%)
 
-       5,973803575 seconds time elapsed
+       7,188623270 seconds time elapsed
 
 
  Performance counter stats for 'php test1.php':
 
-       3107,503163      task-clock (msec)         #    0,998 CPUs utilized          
-               272      context-switches          #    0,088 K/sec                  
+       3236,406120      task-clock (msec)         #    0,998 CPUs utilized          
+               286      context-switches          #    0,088 K/sec                  
                  0      cpu-migrations            #    0,000 K/sec                  
-           258 167      page-faults               #    0,083 M/sec                  
-     7 234 147 402      cycles                    #    2,328 GHz                      (49,94%)
-    11 155 452 608      instructions              #    1,54  insn per cycle           (75,08%)
-     3 098 203 812      branches                  #  997,007 M/sec                    (75,06%)
-         1 843 627      branch-misses             #    0,06% of all branches          (75,00%)
+           258 175      page-faults               #    0,080 M/sec                  
+     7 533 106 632      cycles                    #    2,328 GHz                      (49,90%)
+    11 170 609 037      instructions              #    1,48  insn per cycle           (74,98%)
+     3 106 460 729      branches                  #  959,849 M/sec                    (75,06%)
+         2 080 458      branch-misses             #    0,07% of all branches          (75,05%)
 
-       3,114599149 seconds time elapsed
+       3,243816779 seconds time elapsed
 
 
  Performance counter stats for './test':
 
-        399,735363      task-clock (msec)         #    0,992 CPUs utilized          
-                39      context-switches          #    0,098 K/sec                  
+        413,209233      task-clock (msec)         #    0,987 CPUs utilized          
+                49      context-switches          #    0,119 K/sec                  
                  0      cpu-migrations            #    0,000 K/sec                  
-            64 031      page-faults               #    0,160 M/sec                  
-       928 285 587      cycles                    #    2,322 GHz                      (49,53%)
-       906 652 857      instructions              #    0,98  insn per cycle           (74,46%)
-        97 044 712      branches                  #  242,772 M/sec                    (75,42%)
-           145 119      branch-misses             #    0,15% of all branches          (75,05%)
+            64 030      page-faults               #    0,155 M/sec                  
+       960 486 342      cycles                    #    2,324 GHz                      (50,17%)
+       905 764 573      instructions              #    0,94  insn per cycle           (75,31%)
+        95 916 975      branches                  #  232,127 M/sec                    (75,22%)
+           112 380      branch-misses             #    0,12% of all branches          (74,61%)
 
-       0,402821401 seconds time elapsed
+       0,418485324 seconds time elapsed
 
 
  Performance counter stats for 'lua test.lua':
 
-       3203,827507      task-clock (msec)         #    0,998 CPUs utilized          
-               272      context-switches          #    0,085 K/sec                  
-                 0      cpu-migrations            #    0,000 K/sec                  
-           266 346      page-faults               #    0,083 M/sec                  
-     7 450 853 331      cycles                    #    2,326 GHz                      (50,03%)
-    12 256 711 728      instructions              #    1,65  insn per cycle           (75,00%)
-     2 238 456 601      branches                  #  698,682 M/sec                    (74,84%)
-         1 762 636      branch-misses             #    0,08% of all branches          (75,13%)
+       3456,614162      task-clock (msec)         #    0,991 CPUs utilized          
+               316      context-switches          #    0,091 K/sec                  
+                 4      cpu-migrations            #    0,001 K/sec                  
+           266 350      page-faults               #    0,077 M/sec                  
+     8 013 092 315      cycles                    #    2,318 GHz                      (49,79%)
+    12 224 296 842      instructions              #    1,53  insn per cycle           (74,89%)
+     2 230 816 338      branches                  #  645,376 M/sec                    (75,14%)
+         1 636 447      branch-misses             #    0,07% of all branches          (75,08%)
 
-       3,211339657 seconds time elapsed
+       3,489554250 seconds time elapsed
+
+
+ Performance counter stats for './test.fortran':
+
+        462,334467      task-clock (msec)         #    0,973 CPUs utilized          
+                52      context-switches          #    0,112 K/sec                  
+                 1      cpu-migrations            #    0,002 K/sec                  
+            64 078      page-faults               #    0,139 M/sec                  
+     1 072 226 883      cycles                    #    2,319 GHz                      (49,03%)
+       997 032 583      instructions              #    0,93  insn per cycle           (74,53%)
+       157 841 313      branches                  #  341,401 M/sec                    (76,40%)
+           121 495      branch-misses             #    0,08% of all branches          (74,58%)
+
+       0,475313638 seconds time elapsed
 

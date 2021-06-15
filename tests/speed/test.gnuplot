@@ -14,3 +14,4 @@ datafile using 1:5 title "PHP SPLFixedArray" with lines,\
 datafile using 1:7 title "Plain C" with lines,\
 datafile using 1:9 title "Lua" with lines,\
 datafile using 1:11 title "Python with array module" with lines,\
+datafile using 1:13 title "Fortran 95" with lines,\
